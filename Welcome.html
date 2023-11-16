@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--important references-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/Style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Welcome</title>
+    <!--important references-->
+
+
+  </head>
+
+  <style>
+
+    #summon1{
+      top: 20px;
+      z-index: -1;
+      float:left;
+      position: relative;
+      left: 17%;
+      transition: transform 0.5s ease;
+    }
+    #summon1:hover{
+      top: 20px;
+      z-index: -1;
+      float:left;
+      position: relative;
+      left: 17%;
+      transform: scale(1.05,1.05);
+      transition: transform 0.5s ease;
+    }
+
+    #university{
+      z-index: -1;
+      float:right;
+      position: relative;
+      left: -17%;
+      transition: transform 0.5s ease;
+    }
+
+    #university:hover{
+      z-index: -1;
+      float:right;
+      position: relative;
+      left: -17%;
+      transform: scale(1.05,1.05);
+      transition: transform 0.5s ease;
+    }
+
+    section{
+     height:100px;
+     padding-left:50px;
+     padding-right:50px;
+    }
+
+  .button1{
+  z-index: -1;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+	padding: 16px;
+	background-color: #00a65a;
+	border-radius: 18px;
+	bottom: 210px;
+	left: 445px;
+	width: 130px;
+  transition: background-color 0.2s ease;
+  }
+
+  .button1:hover{
+  z-index: -1;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+	padding: 16px;
+	background-color: #008d4c;
+	border-radius: 18px;
+	bottom: 210px;
+	left: 445px;
+	width: 130px;
+  transition: background-color 0.2s ease;
+  }
+
+  .button2{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  position: absolute;
+  padding: 16px;
+  background-color: #00a65a;
+  border-radius: 18px;
+  bottom: 210px;
+  right: 450px;
+  width: 130px;
+  transition: background-color 0.2s ease;
+  }
+
+  .button2:hover{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  position: absolute;
+  padding: 16px;
+  background-color: #00a65a;
+  border-radius: 18px;
+  bottom: 210px;
+  right: 450px;
+  width: 130px;
+  transition: background-color 0.2s ease;
+  }
+
+.button1 {background-color: #50C878;}
+.button2 {background-color: #50C878;}
+  </style>
+  <body>
+
+    <div class="logo"><a href="Welcome.html" class="menu">e-Summons</a></strong></div>
+
+     <div class="nav">
+     <nav id="navigation">
+       <ul class="parent">
+         <li><a href="Summons.php" class="menu">Summons</a></li>
+         <li><a href="Student.php" class="menu">Student</a></li>
+         <li><a href="Police.php" class="menu">Police</a></li>
+         <!-- <li><a href="About Us.html" class="menu">About Us</a></li> -->
+       </ul>
+     </nav>
+     </div>
+
+     <section class="service">
+         <h1 class="h-primary center" style=" padding: 100px; text-align:center;">
+             Welcome to e-Summons!
+         </h1>
+     </section>
+
+
+        <div id="summon1">
+         <img src="summon1.jpg" width="500" height="500">
+        </div>
+        <div id="university">
+         <img src="university.jpg" width="500" height="500">
+        </div>
+
+
+        <a href="Summons.php" button class="button button1" >SUMMONS</button></a>
+        <a href="University Rules.php" button class="button button2">OFFENCES</button></a>
+
+     <footer>
+       <p class="h-primary center" style=" position: relative; top: 620px; text-align:center;">
+         &copy; Copyright 2022 e-Summons
+       </p>
+     </footer>
+
+   </body>
+ </html>
